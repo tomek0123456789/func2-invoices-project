@@ -32,10 +32,7 @@ data Company = Company
     , companyAddress :: String
     , tin :: Int -- Taxpayer Identification Number (TIN)
     }
-    deriving (Show, Generic, ToJSON, FromJSON)
-
-instance Eq Company where
-    x == y = tin x == tin y
+    deriving (Show, Eq, Generic, ToJSON, FromJSON)
 
 data InvoiceItem = InvoiceItem
     { itemNumber :: Int
