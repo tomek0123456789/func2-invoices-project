@@ -3,7 +3,6 @@ module Ui.GenerateRaport (
 ) where
 
 import System.IO (hFlush, stdout)
-import Control.Monad (filterM)
 import Models.Invoice
 import Data.List (groupBy)
 import Ui.UiUtils (trim, readPositiveMoneyWithError, readTin, readDate, ParseErrorMessage(..), InvalidNumErrorMessage(..))
