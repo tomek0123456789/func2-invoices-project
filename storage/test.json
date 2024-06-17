@@ -1,0 +1,366 @@
+[
+    {
+        "amountPaid": 0,
+        "amountTotal": 24553736000,
+        "buyerCompany": {
+            "companyAddress": "1",
+            "companyName": "4",
+            "tin": 241
+        },
+        "dueDate": "1234",
+        "interest": 0,
+        "invoiceNumber": 3,
+        "issueDate": "",
+        "sellerCompany": {
+            "companyAddress": "2",
+            "companyName": "1",
+            "tin": 3
+        },
+        "soldItems": [
+            {
+                "itemName": "124",
+                "no": 1,
+                "perItemNet": 124,
+                "quantity": 124,
+                "total": 17221.12,
+                "totalNet": 15376,
+                "vat": 12,
+                "vatAmount": 1845.12
+            },
+            {
+                "itemName": "412",
+                "no": 2,
+                "perItemNet": 412,
+                "quantity": 12,
+                "total": 208834.56,
+                "totalNet": 4944,
+                "vat": 4124,
+                "vatAmount": 203890.56
+            },
+            {
+                "itemName": "124",
+                "no": 3,
+                "perItemNet": 1,
+                "quantity": 2,
+                "total": 2.24,
+                "totalNet": 2,
+                "vat": 12,
+                "vatAmount": 0.24
+            },
+            {
+                "itemName": "",
+                "no": 4,
+                "perItemNet": 1,
+                "quantity": 12,
+                "total": 13.44,
+                "totalNet": 12,
+                "vat": 12,
+                "vatAmount": 1.4399999
+            },
+            {
+                "itemName": "21",
+                "no": 5,
+                "perItemNet": 12,
+                "quantity": 2,
+                "total": 26.88,
+                "totalNet": 24,
+                "vat": 12,
+                "vatAmount": 2.8799999
+            },
+            {
+                "itemName": "12",
+                "no": 6,
+                "perItemNet": 12,
+                "quantity": 21,
+                "total": 304.91998,
+                "totalNet": 252,
+                "vat": 21,
+                "vatAmount": 52.92
+            },
+            {
+                "itemName": "12",
+                "no": 7,
+                "perItemNet": 1,
+                "quantity": 21,
+                "total": 21.42,
+                "totalNet": 21,
+                "vat": 2,
+                "vatAmount": 0.42
+            },
+            {
+                "itemName": "21",
+                "no": 8,
+                "perItemNet": 21,
+                "quantity": 21,
+                "total": 533.61,
+                "totalNet": 441,
+                "vat": 21,
+                "vatAmount": 92.61
+            },
+            {
+                "itemName": "21",
+                "no": 9,
+                "perItemNet": 21,
+                "quantity": 21,
+                "total": 533.61,
+                "totalNet": 441,
+                "vat": 21,
+                "vatAmount": 92.61
+            },
+            {
+                "itemName": "1221",
+                "no": 10,
+                "perItemNet": 21,
+                "quantity": 21,
+                "total": 1380.3301,
+                "totalNet": 441,
+                "vat": 213,
+                "vatAmount": 939.3301
+            },
+            {
+                "itemName": "12",
+                "no": 11,
+                "perItemNet": 123,
+                "quantity": 231,
+                "total": 145474.56,
+                "totalNet": 28413,
+                "vat": 412,
+                "vatAmount": 117061.555
+            },
+            {
+                "itemName": "412",
+                "no": 12,
+                "perItemNet": 421,
+                "quantity": 412,
+                "total": 180390.08,
+                "totalNet": 173452,
+                "vat": 4,
+                "vatAmount": 6938.08
+            },
+            {
+                "itemName": "214",
+                "no": 13,
+                "perItemNet": 2342,
+                "quantity": 1,
+                "total": 3075842.3,
+                "totalNet": 2342,
+                "vat": 131234,
+                "vatAmount": 3073500.3
+            },
+            {
+                "itemName": "3421",
+                "no": 14,
+                "perItemNet": 2314,
+                "quantity": 3421,
+                "total": 264480030,
+                "totalNet": 7916194,
+                "vat": 3241,
+                "vatAmount": 256563840
+            },
+            {
+                "itemName": "213",
+                "no": 15,
+                "perItemNet": 2314,
+                "quantity": 321,
+                "total": 23875725000,
+                "totalNet": 742794,
+                "vat": 3214213,
+                "vatAmount": 23874982000
+            },
+            {
+                "itemName": "43214",
+                "no": 16,
+                "perItemNet": 213,
+                "quantity": 2134,
+                "total": 1518170.3,
+                "totalNet": 454542,
+                "vat": 234,
+                "vatAmount": 1063628.3
+            },
+            {
+                "itemName": "4321",
+                "no": 17,
+                "perItemNet": 4321,
+                "quantity": 4213,
+                "total": 408324100,
+                "totalNet": 18204372,
+                "vat": 2143,
+                "vatAmount": 390119700
+            },
+            {
+                "itemName": "234",
+                "no": 18,
+                "perItemNet": 243,
+                "quantity": 243,
+                "total": 60229.98,
+                "totalNet": 59049,
+                "vat": 2,
+                "vatAmount": 1180.98
+            },
+            {
+                "itemName": "12",
+                "no": 19,
+                "perItemNet": 11,
+                "quantity": 1,
+                "total": 11.11,
+                "totalNet": 11,
+                "vat": 1,
+                "vatAmount": 0.11
+            },
+            {
+                "itemName": "1",
+                "no": 20,
+                "perItemNet": 1,
+                "quantity": 1,
+                "total": 1.01,
+                "totalNet": 1,
+                "vat": 1,
+                "vatAmount": 0.01
+            },
+            {
+                "itemName": "1",
+                "no": 21,
+                "perItemNet": 1,
+                "quantity": 1,
+                "total": 1.01,
+                "totalNet": 1,
+                "vat": 1,
+                "vatAmount": 0.01
+            },
+            {
+                "itemName": "1",
+                "no": 22,
+                "perItemNet": 1,
+                "quantity": 1,
+                "total": 1.01,
+                "totalNet": 1,
+                "vat": 1,
+                "vatAmount": 0.01
+            },
+            {
+                "itemName": "1",
+                "no": 23,
+                "perItemNet": 1,
+                "quantity": 1,
+                "total": 1.01,
+                "totalNet": 1,
+                "vat": 1,
+                "vatAmount": 0.01
+            },
+            {
+                "itemName": "1",
+                "no": 24,
+                "perItemNet": 1,
+                "quantity": 11,
+                "total": 11.11,
+                "totalNet": 11,
+                "vat": 1,
+                "vatAmount": 0.11
+            }
+        ],
+        "status": "Due"
+    },
+    {
+        "amountPaid": 0,
+        "amountTotal": 78,
+        "buyerCompany": {
+            "companyAddress": "6",
+            "companyName": "5",
+            "tin": 7
+        },
+        "dueDate": "234234234-2234-232",
+        "interest": 0,
+        "invoiceNumber": 2,
+        "issueDate": "2929-23-22",
+        "sellerCompany": {
+            "companyAddress": "4",
+            "companyName": "3",
+            "tin": 5
+        },
+        "soldItems": [
+            {
+                "itemName": "polska",
+                "no": 1,
+                "perItemNet": 2,
+                "quantity": 39,
+                "total": 78,
+                "totalNet": 78,
+                "vat": 0,
+                "vatAmount": 0
+            }
+        ],
+        "status": "Due"
+    },
+    {
+        "amountPaid": 0,
+        "amountTotal": 3669.69,
+        "buyerCompany": {
+            "companyAddress": "kremowkowa 31",
+            "companyName": "BebzonEx",
+            "tin": 2834539
+        },
+        "dueDate": "2024-06-30",
+        "interest": 0,
+        "invoiceNumber": 1,
+        "issueDate": "2024-06-15",
+        "sellerCompany": {
+            "companyAddress": "wadowicka 27",
+            "companyName": "JanuszPol",
+            "tin": 28347591
+        },
+        "soldItems": [
+            {
+                "itemName": "Kremowki papieskie",
+                "no": 1,
+                "perItemNet": 37,
+                "quantity": 21,
+                "total": 1041.1799,
+                "totalNet": 777,
+                "vat": 34,
+                "vatAmount": 264.18
+            },
+            {
+                "itemName": "Relikwie",
+                "no": 2,
+                "perItemNet": 2137,
+                "quantity": 1,
+                "total": 2628.51,
+                "totalNet": 2137,
+                "vat": 23,
+                "vatAmount": 491.51
+            }
+        ],
+        "status": "Due"
+    },
+    {
+        "amountPaid": 90,
+        "amountTotal": 90,
+        "buyerCompany": {
+            "companyAddress": "Krakow Zablocie 26/100",
+            "companyName": "misktom",
+            "tin": 2137
+        },
+        "dueDate": "2020-10-01",
+        "interest": 0,
+        "invoiceNumber": 1,
+        "issueDate": "2020-09-01",
+        "sellerCompany": {
+            "companyAddress": "Krakow Lojasiewicza 6/3",
+            "companyName": "UJ_WMII",
+            "tin": 1234567
+        },
+        "soldItems": [
+            {
+                "itemName": "depresja",
+                "no": 1,
+                "perItemNet": 90,
+                "quantity": 1,
+                "total": 90,
+                "totalNet": 90,
+                "vat": 0,
+                "vatAmount": 0
+            }
+        ],
+        "status": "Paid"
+    }
+]

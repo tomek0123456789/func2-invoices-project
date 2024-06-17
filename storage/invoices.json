@@ -1,0 +1,138 @@
+[
+    {
+        "amountPaid": 46.8,
+        "amountTotal": 46.8,
+        "buyerCompany": {
+            "companyAddress": "3",
+            "companyName": "2",
+            "tin": 1234561234
+        },
+        "dueDate": "2024-02-28",
+        "interest": {
+            "interestInner": 0,
+            "nextInterestDate": "2024-06-18"
+        },
+        "invoiceNumber": 4,
+        "issueDate": "2024-02-22",
+        "sellerCompany": {
+            "companyAddress": "2",
+            "companyName": "1",
+            "tin": 1234567890
+        },
+        "soldItems": [
+            {
+                "itemName": "234",
+                "itemNumber": 1,
+                "perItemNet": 23.4,
+                "quantity": 2,
+                "total": 46.8,
+                "totalNet": 46.8,
+                "vat": 46.8,
+                "vatAmount": 0
+            }
+        ],
+        "status": "Overdue"
+    },
+    {
+        "amountPaid": 61500,
+        "amountTotal": 61500,
+        "buyerCompany": {
+            "companyAddress": "zxcv",
+            "companyName": "asdf",
+            "tin": 234
+        },
+        "dueDate": "2024-05-20",
+        "interest": {
+            "interestInner": 0,
+            "nextInterestDate": "2024-06-18"
+        },
+        "invoiceNumber": 3,
+        "issueDate": "2024-05-12",
+        "sellerCompany": {
+            "companyAddress": "asdf",
+            "companyName": "qwer",
+            "tin": 123
+        },
+        "soldItems": [
+            {
+                "itemName": "pasztetataaaaa",
+                "itemNumber": 1,
+                "perItemNet": 50000,
+                "quantity": 1,
+                "total": 61500,
+                "totalNet": 50000,
+                "vat": 50000,
+                "vatAmount": 11500
+            }
+        ],
+        "status": "Overdue"
+    },
+    {
+        "amountPaid": 0,
+        "amountTotal": 12.6,
+        "buyerCompany": {
+            "companyAddress": "234",
+            "companyName": "123",
+            "tin": 345
+        },
+        "dueDate": "2024-05-01",
+        "interest": {
+            "interestInner": 0,
+            "nextInterestDate": "2024-06-19"
+        },
+        "invoiceNumber": 2,
+        "issueDate": "2024-04-01",
+        "sellerCompany": {
+            "companyAddress": "sdfg",
+            "companyName": "asdf",
+            "tin": 1234
+        },
+        "soldItems": [
+            {
+                "itemName": "2",
+                "itemNumber": 1,
+                "perItemNet": 4,
+                "quantity": 3,
+                "total": 12.6,
+                "totalNet": 12,
+                "vat": 12,
+                "vatAmount": 0.6
+            }
+        ],
+        "status": "Overdue"
+    },
+    {
+        "amountPaid": 10,
+        "amountTotal": 12.6,
+        "buyerCompany": {
+            "companyAddress": "sdf",
+            "companyName": "112",
+            "tin": 1231234
+        },
+        "dueDate": "2024-06-18",
+        "interest": {
+            "interestInner": 0,
+            "nextInterestDate": "2024-06-21"
+        },
+        "invoiceNumber": 1,
+        "issueDate": "2024-06-17",
+        "sellerCompany": {
+            "companyAddress": "",
+            "companyName": "",
+            "tin": 1234
+        },
+        "soldItems": [
+            {
+                "itemName": "2",
+                "itemNumber": 1,
+                "perItemNet": 4,
+                "quantity": 3,
+                "total": 12.6,
+                "totalNet": 12,
+                "vat": 12,
+                "vatAmount": 0.6
+            }
+        ],
+        "status": "Overdue"
+    }
+]
