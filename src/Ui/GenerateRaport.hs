@@ -64,10 +64,8 @@ generateRaport invoices = do
     case input of
         "1" -> do
             generateRaportAll (filter filterFn invoices)
-            return ()
         "2" -> do
             generateRaportOverdue (filter filterFn invoices)
-            return ()
         _ -> do
             putStr "Invalid input, please enter a valid option: " >> hFlush stdout
             generateRaport invoices
@@ -114,9 +112,7 @@ printLinesWithInvoice
                 Interest
                     { interestInner = interestInner'
                     }
-            , -- , issueDate = issueDate'
-            -- , dueDate = dueDate'
-            status = status'
+            , status = status'
             }
         ) = do
         let totalNet' = sum (map totalNet soldItems')
