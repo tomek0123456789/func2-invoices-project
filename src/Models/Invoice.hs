@@ -11,13 +11,11 @@ module Models.Invoice (
     validateInvoices,
 ) where
 
-
 import Data.Aeson
 import Data.Fixed
 import Data.Time.Calendar (Day, diffDays)
 import GHC.Generics
 import Utils.Utils (getCurrentDate)
-
 
 type Money = Centi
 
@@ -37,7 +35,7 @@ data InvoiceItem = InvoiceItem
     , perItemNet :: Money
     , totalNet :: Money
     , vat :: Money
-    , vatAmount :: Money 
+    , vatAmount :: Money
     , total :: Money
     }
     deriving (Show, Generic, ToJSON, FromJSON)

@@ -7,11 +7,11 @@ import Control.Monad.Trans.Reader
 import Json.JsonFileHandler (loadInvoices, saveInvoice, saveInvoices)
 import Models.Invoice
 import System.IO (hFlush, stdout)
+import Ui.GenerateRaport (generateRaport)
 import Ui.IssueInvoice (getInvoice)
 import Ui.PayOffInvoice (payOffInvoice)
 import Ui.UiUtils (trim)
 import Utils.IOUtils (validateStorage)
-import Ui.GenerateRaport (generateRaport)
 
 printMainMenu :: IO ()
 printMainMenu = do
@@ -38,7 +38,7 @@ handleMainMenuInput = do
     action <- trim <$> getLine
     case action of
         "1" -> do
-            invoices <- loadInvoices >>= validateInvoices 
+            invoices <- loadInvoices >>= validateInvoices
             runReaderT handleGenerateRaport invoices
             mainMenuLoop
         "2" -> do
