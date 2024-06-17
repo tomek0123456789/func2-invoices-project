@@ -102,5 +102,5 @@ validateInvoice
                         }
                 , issueDate = issueDate'
                 , dueDate = dueDate'
-                , status = if dueDateDifference > 0 && nextInterestDate' <= currentDate then Overdue else status'
+                , status = if dueDateDifference > 0 && nextInterestDate' <= currentDate && status' /= Paid then Overdue else status'
                 }
