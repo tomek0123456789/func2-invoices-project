@@ -66,7 +66,6 @@ handleIssueInvoice :: ReaderT Int IO ()
 handleIssueInvoice = do
     envInvoiceNumber <- ask
     invoice <- lift $ getInvoice (envInvoiceNumber + 1)
-    -- TODO saveInvoice should return Either a b with an error if opening the file fails
     lift $ do
         saveInvoice invoice
         putStrLn "\nSuccessfully added an invoice to the system\n"
@@ -75,7 +74,6 @@ handleIssueInvoice = do
 handlePayOffInvoice :: ReaderT [Invoice] IO ()
 handlePayOffInvoice = do
     invoices <- ask
-    -- TODO show invoices?
     lift $ do
         handledInvoices <- payOffInvoice invoices
         saveInvoices handledInvoices

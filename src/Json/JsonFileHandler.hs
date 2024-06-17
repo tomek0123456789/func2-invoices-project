@@ -11,8 +11,6 @@ import Models.Invoice
 
 saveInvoice :: Invoice -> IO ()
 saveInvoice invoice = do
-    -- TODO wyciagnac to z Maybe i dzialac ewentualnie inaczej na tym, jakis error gdy nie da sie pliku otworzyc
-    -- funkcja n ahandlowanie gdy sie nie da otworzyc czy cos
     maybeInvoices <- decodeFileStrict "./.storage/invoices.json"
     case maybeInvoices of
         Just invoices -> do

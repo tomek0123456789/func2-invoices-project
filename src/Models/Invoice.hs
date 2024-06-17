@@ -1,6 +1,5 @@
 {-# LANGUAGE DeriveAnyClass #-}
 {-# LANGUAGE DeriveGeneric #-}
-{-# LANGUAGE OverloadedStrings #-}
 
 module Models.Invoice (
     InvoiceStatus (..),
@@ -12,16 +11,13 @@ module Models.Invoice (
     validateInvoices,
 ) where
 
--- import Data.Time.Calendar.OrdinalDate (Day, showOrdinalDate)
 
 import Data.Aeson
 import Data.Fixed
 import Data.Time.Calendar (Day, diffDays)
 import GHC.Generics
-
 import Utils.Utils (getCurrentDate)
 
--- import Debug.Trace
 
 type Money = Centi
 
@@ -38,11 +34,11 @@ data InvoiceItem = InvoiceItem
     { itemNumber :: Int
     , itemName :: String
     , quantity :: Int
-    , perItemNet :: Money -- TODO some money type?
-    , totalNet :: Money -- TODO some money type?
-    , vat :: Money -- TODO some money type?
-    , vatAmount :: Money -- TODO some money type?
-    , total :: Money -- TODO some money type?
+    , perItemNet :: Money
+    , totalNet :: Money
+    , vat :: Money
+    , vatAmount :: Money 
+    , total :: Money
     }
     deriving (Show, Generic, ToJSON, FromJSON)
 
@@ -57,8 +53,8 @@ data Invoice = Invoice
     , sellerCompany :: Company
     , buyerCompany :: Company
     , soldItems :: [InvoiceItem]
-    , amountTotal :: Money -- TODO some money type?
-    , amountPaid :: Money -- TODO some money type?
+    , amountTotal :: Money
+    , amountPaid :: Money
     , interest :: Interest
     , issueDate :: Day
     , dueDate :: Day
@@ -90,10 +86,6 @@ validateInvoice
         ) = do
         currentDate <- getCurrentDate
         let dueDateDifference = diffDays currentDate dueDate'
-        -- trace ("ID: " ++ show invoiceNumber' ++ ", Current date: " ++ show currentDate ++ ", nextInterestDate': " ++ show nextInterestDate' ++ ", equal? " ++ show (currentDate == nextInterestDate')) (return ())
-        -- trace (show $ ((amountTotal' * (0.1 :: Money)) / 365) * fromIntegral dueDateDifference) (return ())
-        -- trace ("dueDateDifference: " ++ show dueDateDifference) (return ())
-        -- nextInterestDate' <- getCurrentDateSuccessor
         return $
             Invoice
                 { invoiceNumber = invoiceNumber'
